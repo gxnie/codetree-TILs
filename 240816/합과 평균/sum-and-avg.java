@@ -6,7 +6,6 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.print((a+b)+" ");
-        System.out.printf("%.1f",(double)(a+b)/2);
+        System.out.printf("%d %.1f",a + b, (double)(a+b)/2);
     }
 }
