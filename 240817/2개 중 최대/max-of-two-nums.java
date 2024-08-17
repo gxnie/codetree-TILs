@@ -6,9 +6,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        a = b > a ? b : a;
+        int c = b > a ? b : a;
 
-        System.out.print(a);
+        System.out.print(c);
         
     }
 }
