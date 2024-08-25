@@ -13,4 +13,5 @@ public class Main {
             System.out.println("Summer");
         else
             System.out.println("Fall");
+    }
 }
