@@ -12,7 +12,7 @@ public class Main {
 
         String man = "M";
 
-        if(((a_age >= 19) || ( b_age >= 19)) || ((a_gender.equals(man)) || (b_gender.equals(man)))){
+        if(((a_age >= 19) || ( b_age >= 19)) && ((a_gender.equals(man)) || (b_gender.equals(man)))){
             System.out.print("1");
         } else {
             System.out.print("0");
