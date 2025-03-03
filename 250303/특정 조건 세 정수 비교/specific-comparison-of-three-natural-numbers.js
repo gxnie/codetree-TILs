@@ -8,15 +8,13 @@ let c = Number(arr[2]);
 
 let resultA, resultB;
 
-if(a < b && a < c){
-    resultA = 1;
-} else if((a <= b && a < c) || (a < b && a <= c)){ 
+if(a <= b && a <= c){
     resultA = 1;
 } else {
     resultA = 0;
 }
 
-if(a === b === c){
+if(a === b & a === c){
     resultB = 1;
 }  else {
     resultB = 0;
