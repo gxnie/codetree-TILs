@@ -8,9 +8,11 @@ let c = Number(arr[2]);
 
 let resultA, resultB;
 
-if(a <= b && a <= c){
+if(a < b && a < c){
     resultA = 1;
-}  else {
+} else if((a <= b && a < c) || (a < b && a <= c)){ 
+    resultA = 1;
+} else {
     resultA = 0;
 }
 
