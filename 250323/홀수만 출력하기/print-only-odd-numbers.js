@@ -1,10 +1,12 @@
 const fs = require("fs");
 
 let arr = fs.readFileSync(0).toString().trim().split("\n");
-let newArr = arr.map(Number);
+let n = Number(arr[0]);
 
-for(let i = 0; i < newArr.length; i++){
-    if(newArr[i] % 3 === 0){
-        console.log(newArr[i]);
+for(let i = 1; i <= n; i++){
+    let x = Number(arr[i]);
+
+    if(( x % 2 === 1) && (x % 3 === 0)){
+        console.log(x);
     }
 }
