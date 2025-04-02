@@ -7,6 +7,6 @@ for(let i = 0; i < 100; i++){
     result += i;
     if(result >= n){
         console.log(i);
-        break;
     }
+    break;
 }
